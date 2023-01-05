@@ -6,14 +6,10 @@
   "scripts": {
     "build": "tsc",
     "start": "yarn build && node dist/src/index.js",
-<<<<<<< HEAD
     "start:dev": "ts-node-dev src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src ./test --ext .ts",
     "lint:fix": "eslint ./src ./test --ext .ts --fix"
-=======
-    "test": "echo \"Error: no test specified\" && exit 1"
->>>>>>> 356edc8 (Iniciando o projeto configurando Node js, Typescript, yarn e module-alias)
   },
   "repository": {
     "type": "git",
@@ -33,13 +29,10 @@
   "devDependencies": {
     "@types/module-alias": "^2.0.1",
     "@types/node": "^18.11.18",
-<<<<<<< HEAD
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "@typescript-eslint/parser": "^5.48.0",
     "eslint": "^8.31.0",
     "ts-node-dev": "^2.0.0",
-=======
->>>>>>> 356edc8 (Iniciando o projeto configurando Node js, Typescript, yarn e module-alias)
     "typescript": "^4.9.4"
   },
   "dependencies": {
